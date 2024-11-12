@@ -20,7 +20,7 @@ window.onload = function() {
     const paloArriba = document.createElement("div");
     paloArriba.classList.add("paloArriba", "text-start", "m-0", "p-0");
     paloArriba.textContent = palos[palo];
-    paloArriba.style.fontSize = "60px";
+    paloArriba.style.fontSize = "70px";
 
     const numeroLetra = document.createElement("div");
     numeroLetra.classList.add("numeroLetra", "text-center");
@@ -30,7 +30,7 @@ window.onload = function() {
     const paloAbajo = document.createElement("div");
     paloAbajo.classList.add("paloAbajo", "text-end", "m-0");
     paloAbajo.textContent = palos[palo];
-    paloAbajo.style.fontSize = "60px";
+    paloAbajo.style.fontSize = "70px";
 
     carta.appendChild(paloArriba);
     carta.appendChild(numeroLetra);

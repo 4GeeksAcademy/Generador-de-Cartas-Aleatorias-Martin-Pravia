@@ -2,6 +2,13 @@
 
 body {
   background: green;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
 }
 
 .carta {
@@ -22,4 +29,10 @@ body {
 
 .black {
   color: black;
+}
+
+.cartasMano {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
